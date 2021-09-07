@@ -2,9 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
     <title>Tech It Easy Dashboard</title>
 </head>
 <body>
+<div>
+    <h1>Financial information</h1>
 
+    <div id="items-left-to-sell">
+        <h2>Hoeveelheid items die nog verkocht moet worden:</h2>
+    </div>
+
+    <h2>Lijstje met types</h2>
+    <ul id="tv-type-list"></ul>
+
+    <h2>Een enkele tv</h2>
+    <div id="tv-one"></div>
+
+    <div id="goal-profit">
+        <h2>Doelopbrengst:</h2>
+    </div>
+
+    <div id="current-profit">
+        <h2>Huidige opbrengst:</h2>
+    </div>
+</div>
+<div>
+    <h1>Products</h1>
+    <button type="button" id="sort-button">
+        Sorteer van laag naar hoog
+    </button>
+    <button type="button" id="ambilight-button">
+        Ambilight tv's
+    </button>
+    <button type="button" id="sold-out-button">
+        Uitverkochte exemplaren
+    </button>
+    <ul id="tv-list"></ul>
+</div>
+<script src="main.js"></script>
 </body>
 </html>

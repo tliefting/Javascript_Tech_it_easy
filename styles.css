@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.items-left-number {
+    color: red;
+}
+
+.goal-profit {
+    color: blue;
+}
+
+.current-profit {
+    color: green;
+}
+
+#tv-one {
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+#tv-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tv-list-item {
+    display: block;
+    border-radius: 4px;
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 16px 0;
+    background-color: #ededed;
+}
